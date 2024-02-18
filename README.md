@@ -53,3 +53,6 @@ This repository provides a Python implementation of time-series forecasting usin
 ```bash
 git clone https://github.com/yourusername/air-pollution-forecasting.git
 cd air-pollution-forecasting
+
+
+2. Install dependencies:
