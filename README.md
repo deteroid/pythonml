@@ -53,4 +53,30 @@ This repository provides a Python implementation of time-series forecasting usin
 ```bash
 git clone https://github.com/yourusername/air-pollution-forecasting.git
 cd air-pollution-forecasting
+```
+
+2. Install Required Packages:
+Ensure you have the necessary Python packages installed. You can install them using the following command in your terminal or command prompt:
+
+```bash
+pip install pandas dash plotly statsmodels scikit-learn
+```
+
+This command will install the required libraries - Pandas, Dash, Plotly, Statsmodels, and Scikit-learn.
+
+
+4. Run the Script:
+Open a terminal or command prompt and navigate to the directory where you saved the Python file. Then, run the script using the following command:
+
+```bash
+python dashboard.py
+```
+
+5. Access the Dashboard:
+After running the script, you will see output indicating that the Dash app is running. Open a web browser and go to the URL provided in the output (usually, it will be http://127.0.0.1:8050/). You should be able to interact with the ARIMA Forecast Dashboard.
+
+Note: If there are any issues with port availability, the script may suggest using a different port. Adjust the URL accordingly.
+
+6. Interact with the Dashboard:
+Once the dashboard is open in your web browser, you can use the dropdown menu to select different graphs. The selected graph will be displayed in the main area, and the Root Mean Squared Error (RMSE) for positive values will be shown below.
 
